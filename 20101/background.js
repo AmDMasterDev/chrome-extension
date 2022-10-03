@@ -25,7 +25,7 @@ function time_() {
 
             chrome.notifications.create(null, {
                 type: 'basic',
-                iconUrl: 'images/icon16.png',
+                iconUrl: 'images/128icon.png',
                 title: 'Reminder!',
                 message: currentEvent,
                 priority: 2
