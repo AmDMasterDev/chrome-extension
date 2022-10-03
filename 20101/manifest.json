@@ -1,0 +1,25 @@
+{
+    "name": "Clocker BOT",
+    "description": "Your Friendly Time BOT",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "notifications"],
+    "action": {
+        "default_popup": "clocker-bot.html"
+    },
+    "default_icon": {
+        "16": "/images/16icon.png",
+        "32": "/images/32icon.png",
+        "48": "/images/48icon.png",
+        "128": "/images/128icon.png"
+    },
+    "icons": {
+        "16": "/images/16icon.png",
+        "32": "/images/32icon.png",
+        "48": "/images/48icon.png",
+        "128": "/images/128icon.png"
+    }
+}

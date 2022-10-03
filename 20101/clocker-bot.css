@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(9, 9, 9);
+    border: 2px solid white;
+}
+
+.view {
+    width: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view > h1 {
+    padding-top: 0.5rem;
+    font-weight: 500;
+}
+
+.view > p {
+    padding-top: 0.5rem;
+}
+
+.view > hr,
+#clocker-event,
+#event-time
+{
+    margin: 0.5rem 0;
+    width: 80%;
+}
+
+#clocker-event,
+#event-time
+{
+    font-size: 1.2rem;
+    color: black;
+}
+
+#event-time {
+    margin-top: 0;
+    width: 30%;
+    text-align: center;
+}
+
+#clocker-submit {
+    padding: 0.1rem 2rem;
+    color: black;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#clocker-submit:hover {
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border: none;
+}
+
+#clocker-submit:active {
+    background-color: rgb(118, 255, 103);
+    color: black;
+    border: none;
+}
+
+#clocker-submit:disabled {
+    background-color: rgb(255, 61, 61);
+    color: white;
+    border: none;
+}
+
+#clocker-time {
+    margin: 0;
+    padding: 0;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-card {
+    width: 15rem;
+    margin: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.event-card > h3,
+.event-card > p
+{
+    padding: 0;
+    font-size: 1.2rem;
+    color: black;
+}
